@@ -1,0 +1,55 @@
+body{
+    background-color: white;
+}
+
+#form_registro{
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+
+    background-color: var(--colorGrisClaro);
+}
+
+.input_r{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 35px;
+    margin: 20px 0;
+    padding-left: 10px;
+    border: transparent;
+    border-radius: 5px;
+}
+.input_d{
+    width: 100%;
+    height: 35px;
+    margin: 20px 0;
+    padding-left: 10px;
+    border: transparent;
+    border-radius: 5px;
+}
+#checkbox{
+   margin: 15px 0; 
+}
+.reg-button{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.reg-button button{
+    margin: 5px;
+    background-color:  var(--colorCeleste);
+    width: 45%;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}

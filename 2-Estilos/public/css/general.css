@@ -1,0 +1,27 @@
+:root{
+    --Amarillo: #EAC926;
+    --Azul: #03264C;
+    --Celeste: #1259c3;
+    --Gris-oscuro: #666;
+    --Gris-claro: #ebebeb;
+    --Verde: #39b54a;
+
+
+    --Roboto: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+
+    
+    --cuerpos-de-texto: 12px;
+    --oferta: 24px;
+    --precios: 18px;
+    --descuentos: 16px;
+    --descripciones: 16px;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--Gris-claro);
+    font-family: var(--Roboto);
+}
